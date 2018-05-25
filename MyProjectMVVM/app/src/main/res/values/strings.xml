@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Book</string>
+    <string name="delete_product">Votre Produit a été supprimer à votre panier</string>
+    <string name="add_product">Votre Produit a été ajouter à votre panier</string>
+    <string name="empty_list_product">Vous devez choisir au moin un produit</string>
+    <string name="somme_a_payer">Vous devez payer %1$s €</string>
+</resources>
