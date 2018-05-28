@@ -4,10 +4,8 @@ import android.util.Log;
 
 import com.example.dchikhaoui.myprojectmvvm.Model.AllOffers;
 import com.example.dchikhaoui.myprojectmvvm.Model.books;
-import com.example.dchikhaoui.myprojectmvvm.Utils.UtilsBook;
 import com.example.dchikhaoui.myprojectmvvm.View.listBook.BooksListAdaptater;
 
-import java.util.HashMap;
 import java.util.List;
 
 import io.reactivex.Observable;

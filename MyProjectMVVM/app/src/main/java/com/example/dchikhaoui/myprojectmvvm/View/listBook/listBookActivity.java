@@ -79,7 +79,7 @@ public class listBookActivity extends AppCompatActivity implements BookContract.
 
 
     public void openDetailed(View view) {
-        if (BookApplication.getBookViewModel().getBookLiveData().getValue().size() == 0) {
+        if (BookApplication.getBookViewModel().getBookLiveData().getValue() == null || BookApplication.getBookViewModel().getBookLiveData().getValue().size() == 0) {
             Snackbar snackbar = Snackbar
                     .make(view, R.string.empty_list_product, Snackbar.LENGTH_LONG);
             snackbar.show();
